@@ -4451,19 +4451,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Muril\\.nuget\\packages\\": {}
+    "C:\\Users\\david.soares\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muril\\OneDrive\\Documentos\\estudos\\UserProductAPI\\UserProductAPI\\UserProductAPI.csproj",
+      "projectUniqueName": "C:\\Users\\david.soares\\Documents\\Estudos\\UserProductAPI\\UserProductAPI.csproj",
       "projectName": "UserProductAPI",
-      "projectPath": "C:\\Users\\Muril\\OneDrive\\Documentos\\estudos\\UserProductAPI\\UserProductAPI\\UserProductAPI.csproj",
-      "packagesPath": "C:\\Users\\Muril\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muril\\OneDrive\\Documentos\\estudos\\UserProductAPI\\UserProductAPI\\obj\\",
+      "projectPath": "C:\\Users\\david.soares\\Documents\\Estudos\\UserProductAPI\\UserProductAPI.csproj",
+      "packagesPath": "C:\\Users\\david.soares\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\david.soares\\Documents\\Estudos\\UserProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Muril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\david.soares\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4554,7 +4554,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

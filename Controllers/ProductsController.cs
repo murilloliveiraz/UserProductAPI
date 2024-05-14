@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using UserProductAPI.Data.DTOS;
@@ -18,6 +19,7 @@ namespace UserProductAPI.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policy = "AdminOnly")]
         [ProducesResponseType(typeof(ProductDTO), 201)]
         public async Task<IActionResult> CreateProduct([FromBody] ProductDTO productDTO)
         {
@@ -48,6 +50,7 @@ namespace UserProductAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         [ProducesResponseType(204)]
         public async Task<IActionResult> DeleteContact(int id)
         {
