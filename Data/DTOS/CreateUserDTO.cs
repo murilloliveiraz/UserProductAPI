@@ -18,16 +18,16 @@ namespace UserProductAPI.Data.DTOS
         [Compare("Password", ErrorMessage ="As senhas não conferem")]
         public string RePassword { get; set; }
 
-        private string ValidateRole()
+        public bool ValidateRole()
         {
             string[] validRoles = { "admin", "user" };
 
             if (Role == null || Array.IndexOf(validRoles, Role.ToLower()) == -1)
             {
-                return "Role must be either 'admin' or 'user'.";
+                return false;
             }
 
-            return null; // Retorna null se a role for válida
+            return true; // Retorna null se a role for válida
         }
     }
 }

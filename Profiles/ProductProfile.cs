@@ -4,11 +4,13 @@ using UserProductAPI.Data.Models;
 
 namespace UserProductAPI.Profiles
 {
-    public class ProductProfile : Profile
+    public class APIProfile : Profile
     {
-        public ProductProfile()
+        public APIProfile()
         {
             CreateMap<ProductDTO, Product>().ReverseMap();
+            CreateMap<LoginUserDTO, User>().ReverseMap();
+            CreateMap<CreateUserDTO, User>().ReverseMap();
         }
     }
 }

@@ -142,3 +142,4 @@ C:\Users\Muril\OneDrive\Documentos\estudos\UserProductAPI\UserProductAPI\obj\Deb
 C:\Users\Muril\OneDrive\Documentos\estudos\UserProductAPI\UserProductAPI\obj\Debug\net8.0\UserProductAPI.pdb
 C:\Users\Muril\OneDrive\Documentos\estudos\UserProductAPI\UserProductAPI\obj\Debug\net8.0\UserProductAPI.genruntimeconfig.cache
 C:\Users\Muril\OneDrive\Documentos\estudos\UserProductAPI\UserProductAPI\obj\Debug\net8.0\ref\UserProductAPI.dll
+C:\Users\Muril\OneDrive\Documentos\estudos\UserProductAPI\UserProductAPI\obj\Debug\net8.0\UserProductAPI.sourcelink.json
