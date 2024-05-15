@@ -58,7 +58,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="#" title="defina o titulo do link">
         <img src="https://avatars.githubusercontent.com/u/113298979?v=4936044" width="100px;" alt="Foto do Murillo no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Murillo Oliveira</b>
         </sub>
       </a>
     </td>
